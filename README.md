@@ -16,6 +16,13 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
+3. package
+   ```bash
+   eas secret:push --scope project --env-file .env
+   eas build -p android
+   eas build -p android --local
+   ```
+
 ## Demonstrate
 
 <p><img src='assets/demo/1.png' width="550" /></p>

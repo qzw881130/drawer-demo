@@ -7,6 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android"],
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -21,7 +22,12 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.qianzhiwei5921.drawerdemo"
+      "package": "com.qianzhiwei5921.drawerdemo",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -41,6 +47,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a3a57903-00a4-4f0b-b6c7-e4ca1c0065f3"
+      }
+    },
+    "owner": "qianzhiwei5921"
   }
 }

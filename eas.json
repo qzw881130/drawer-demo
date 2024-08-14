@@ -1,0 +1,14 @@
+{
+  "build": {
+    "development": {
+      "android": {
+        "buildType": "apk" // 或 "aab"（Android App Bundle）
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk" // 或 "apk"
+      }
+    }
+  }
+}
