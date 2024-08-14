@@ -27,4 +27,4 @@ You can start developing by editing the files inside the **app** directory. This
 
 ## Source
 
-- [Youtube] (https://www.youtube.com/watch?v=Prf1HfVRSYo): Build a React Native Meme Creator with API Calls and Nativebase UI for iOS & Android
+- [Youtube](https://www.youtube.com/watch?v=Prf1HfVRSYo): Build a React Native Meme Creator with API Calls and Nativebase UI for iOS & Android
