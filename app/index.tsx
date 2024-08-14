@@ -33,6 +33,8 @@ const getIcon = (screenName: string) => {
       return "animation";
     case "SwipeList":
       return "airplane";
+    case "Creator":
+      return "coffee-maker";
   }
 };
 
