@@ -21,6 +21,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    eas secret:push --scope project --env-file .env
    eas build -p android
    eas build -p android --local
+   eas build -p ios
    ```
 
 ## Demonstrate
